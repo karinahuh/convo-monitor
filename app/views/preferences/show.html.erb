@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>gender:</strong>
+  <%= @preference.gender %>
+</p>
+
+<p>
+  <strong>min_age:</strong>
+  <%= @preference.min_age %>
+</p>
+
+<p>
+  <strong>max_age:</strong>
+  <%= @preference.max_age %>
+</p>
+
+<%= link_to 'Edit', edit_preference_path(@preference) %> |
+<%= link_to 'Back', preferences_path %>
