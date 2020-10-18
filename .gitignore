@@ -54,9 +54,9 @@ bower.json
 node_modules/
 
 # Ignore precompiled javascript packs
-/public/packs
-/public/packs-test
-/public/assets
+#/public/packs
+#/public/packs-test
+#/public/assets
 
 # Ignore yarn files
 /yarn-error.log
@@ -68,8 +68,8 @@ yarn-debug.log*
 !/storage/.keep
 /public/uploads
 
-/public/packs
-/public/packs-test
+#/public/packs
+#/public/packs-test
 /node_modules
 /yarn-error.log
 yarn-debug.log*
